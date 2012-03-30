@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:beans="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:lang="http://www.springframework.org/schema/lang" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+		http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang-2.5.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.5.xsd">
+
+
+	<bean id="sms" class="studentmanagmentsystem.StudentManagementSystem"   
+        />
+        <bean id="stu1" class="studentmanagmentsystem.Student"
+        p:firstName="kasun" p:lastName="gunsekara" p:address="House2,abc1Road" p:regNumber="1"
+        />
+         <bean id="stu2" class="studentmanagmentsystem.Student"
+        p:firstName="osada" p:lastName="gamage" p:address="House3,abc2Road" p:regNumber="2"
+        />
+         <bean id="stu3" class="studentmanagmentsystem.Student"
+        p:firstName="chathura" p:lastName="thilanka" p:address="House5,abc1Road" p:regNumber="3"
+        />
+         <bean id="stu4" class="studentmanagmentsystem.Student"
+        p:firstName="kavinda" p:lastName="kahadagamage" p:address="House11,abc1Road" p:regNumber="4"
+        />
+        <bean id="stu5" class="studentmanagmentsystem.Student"
+        p:firstName="purana" p:lastName="hewa" p:address="House1,abc1Road" p:regNumber="4"
+        />
+
+
+
+</beans>
